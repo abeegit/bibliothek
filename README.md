@@ -1,4 +1,4 @@
-Book Library
+# Book Library
 
 A React and Express + NeDB app  that lets you add, edit and display books in the inventory. 
 Tested on node v12.
