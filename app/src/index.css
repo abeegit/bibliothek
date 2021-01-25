@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Monsterrat", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 16px;
+  position: relative;
+}
+
+#root {
+  height: 100%;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input:active,
+input:focus {
+  outline-color: var(--primary-color);
+}

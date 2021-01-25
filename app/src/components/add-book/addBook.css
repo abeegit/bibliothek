@@ -1,0 +1,15 @@
+.add-form__wrapper {
+  padding: 2em;
+}
+
+.add-form__wrapper h2 {
+  color: var(--secondary-color)
+}
+
+.add-form__wrapper input {
+  line-height: 2em;
+}
+
+.buttons__wrapper {
+  margin: 2em 0;
+}

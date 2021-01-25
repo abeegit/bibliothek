@@ -1,0 +1,83 @@
+html,
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  letter-spacing: 1px;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/montserrat.woff2") format("woff2"),
+    url("./fonts/montserrat.woff") format("woff");
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: black;
+  background: #f5f5f6;
+  position: relative;
+  z-index: 1;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+:root {
+  --primary-color: #c98860;
+  --secondary-color: #744c24;
+  --tertiary-color: #efcead;
+  --off-white: #f3e3d3;
+}
+
+.main__wrapper {
+  max-width: 1170px;
+  margin: 0px auto;
+  padding: 2em;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+}
+
+.button {
+  border: 2px solid var(--secondary-color);
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+}
+
+.button:active, .button:focus {
+  opacity: 0.8;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+@media only screen and (max-width: 767px) {
+  .button {
+    padding: 0.5em 0.5em;
+    font-size: 0.8em;
+  } 
+}

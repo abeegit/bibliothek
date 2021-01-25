@@ -1,0 +1,17 @@
+.list__wrapper .list__count {
+  margin: 1em 0;
+  font-size: 0.7em;
+  color: var(--secondary-color);
+}
+
+.book__wrapper {
+  cursor: pointer;
+  margin: 1em 0;
+}
+
+.book__wrapper--title {
+  color: var(--secondary-color);
+  font-size: 1.5em;
+  font-weight: 600;
+  text-decoration: underline;
+}
